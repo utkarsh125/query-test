@@ -1,0 +1,5 @@
+
+> query-test@1.0.0 client
+> tsx src/client.ts
+
+CHECKING OPTIONS Discovery...
