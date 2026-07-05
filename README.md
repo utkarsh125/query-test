@@ -24,3 +24,7 @@ Think of it as: _"POST's syntax, GET's semantics."_
 
 **`QUERY`** is essentially: _"I want to read/search/filter data, my request is too complex for a URL, but I promise this doesn't change server state."_
 The response to a `QUERY` request can be cached, exactly like a `GET` response, because the semantics guarantee it's a read.
+
+## Test it out
+Just clone this repository and install the deps using `npm install`
+Run the server and client on separate terminals using `npm run server` and `npm run client` on separate terminals and observe the `server` terminal. That's all.
